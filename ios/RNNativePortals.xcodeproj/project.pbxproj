@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214D188624E6C1E0002DECB4 /* ReparentableRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 214D188524E6C1E0002DECB4 /* ReparentableRegistry.m */; };
 		3F2CC5FD23A2790B00790118 /* ReparentableOriginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CC5F523A2790B00790118 /* ReparentableOriginManager.swift */; };
 		3F2CC5FE23A2790B00790118 /* ReparentableOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CC5F623A2790B00790118 /* ReparentableOrigin.swift */; };
 		3F2CC5FF23A2790B00790118 /* ReparentableDestinationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CC5F723A2790B00790118 /* ReparentableDestinationManager.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNNativePortals.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNNativePortals.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		214D188524E6C1E0002DECB4 /* ReparentableRegistry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ReparentableRegistry.m; path = lib/ReparentableRegistry.m; sourceTree = "<group>"; };
 		3F2CC5E323A2727400790118 /* RNNativePortals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNativePortals.h; sourceTree = "<group>"; };
 		3F2CC5F523A2790B00790118 /* ReparentableOriginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReparentableOriginManager.swift; path = lib/ReparentableOriginManager.swift; sourceTree = "<group>"; };
 		3F2CC5F623A2790B00790118 /* ReparentableOrigin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReparentableOrigin.swift; path = lib/ReparentableOrigin.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				3F2CC5F823A2790B00790118 /* ReparentableOrigin.m */,
 				3F2CC5F623A2790B00790118 /* ReparentableOrigin.swift */,
 				3F2CC5F523A2790B00790118 /* ReparentableOriginManager.swift */,
+				214D188524E6C1E0002DECB4 /* ReparentableRegistry.m */,
 				3F2CC5F923A2790B00790118 /* ReparentableRegistry.swift */,
 				3F2CC5FB23A2790B00790118 /* ReparentableView.swift */,
 				3F2CC5E323A2727400790118 /* RNNativePortals.h */,
@@ -143,6 +146,7 @@
 				3F2CC5FD23A2790B00790118 /* ReparentableOriginManager.swift in Sources */,
 				3F2CC60323A2790B00790118 /* ReparentableView.swift in Sources */,
 				3F2CC60023A2790B00790118 /* ReparentableOrigin.m in Sources */,
+				214D188624E6C1E0002DECB4 /* ReparentableRegistry.m in Sources */,
 				3F2CC60223A2790B00790118 /* ReparentableDestination.swift in Sources */,
 				3F2CC5FF23A2790B00790118 /* ReparentableDestinationManager.swift in Sources */,
 				3F2CC60123A2790B00790118 /* ReparentableRegistry.swift in Sources */,

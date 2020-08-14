@@ -1,20 +1,24 @@
 import PropTypes from "prop-types";
-import { requireNativeComponent, ViewPropTypes } from "react-native";
+import {
+  requireNativeComponent,
+  ViewPropTypes,
+  NativeModules,
+} from "react-native";
 
 const portalOrigin = {
   name: "PortalOrigin",
   propTypes: {
     name: PropTypes.string,
-    ...ViewPropTypes
-  }
+    ...ViewPropTypes,
+  },
 };
 
 const portalDestination = {
   name: "PortalDestination",
   propTypes: {
     destination: PropTypes.string,
-    ...ViewPropTypes
-  }
+    ...ViewPropTypes,
+  },
 };
 
 export const PortalOrigin = requireNativeComponent(
@@ -26,3 +30,5 @@ export const PortalDestination = requireNativeComponent(
   "RCTPortalDestination",
   portalDestination
 );
+
+export const { PortalRegistry } = NativeModules;

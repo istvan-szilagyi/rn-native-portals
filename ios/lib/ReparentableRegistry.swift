@@ -1,6 +1,7 @@
 import Foundation
 
-class PortalRegistry {
+@objc(RCTPortalRegistry)
+class PortalRegistry: NSObject {
   
   static var _registry: PortalRegistry?
   
@@ -9,6 +10,11 @@ class PortalRegistry {
       PortalRegistry._registry = PortalRegistry()
     }
     return PortalRegistry._registry!
+  }
+    
+  @objc
+  func reset() {
+    PortalRegistry._registry = nil
   }
   
   private var destinations = [NSString : PortalDestination]()
